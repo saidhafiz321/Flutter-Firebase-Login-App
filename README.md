@@ -1,4 +1,4 @@
-** Flutter Firebase Login App**
+# Flutter Firebase Login App 
  
 This Flutter project demonstrates a simple login application using Firebase Authentication. Users can log in using their email and password, and upon successful login, they are directed to a profile screen.
 
@@ -19,13 +19,18 @@ Run the following command to get the dependencies:
  ```
 flutter pub get
 ```
-**Firebase Configuration**
+## **Firebase Configuration**
+
 1.Create a new Firebase project on the Firebase Console.
+
 2.Set up Firebase Authentication with the Email/Password sign-in method.
+
 3.Download the google-services.json file and place it in the android/app directory for Android or the GoogleService-Info.plist file in the ios/Runner directory for iOS.
 
-**Usage**
+## **Usage**
+
 1.Open the project in your preferred Flutter development environment (e.g., Visual Studio Code, Android Studio).
+
 2.Run the app on an emulator or physical device:
 ```
 flutter run
@@ -35,19 +40,21 @@ flutter run
 Email: usertest@gmail.com
 Password: user123
 ```
-**Features**
+## **Features**
 - User authentication with Firebase Authentication.
 - Login screen with email and password fields.
 - Simple error handling for unsuccessful login attempts.
 - Profile screen navigation upon successful login.
 
-**Troubleshooting**
+## **Troubleshooting**
+
 If you encounter any issues, ensure that you have followed the Firebase configuration steps correctly and have the required dependencies installed.
 
-**License**
+## **License**
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-**Acknowledgments**
+## **Acknowledgments**
 Flutter
 Firebase
 
